@@ -1,0 +1,13 @@
+import unittest
+
+# Replace this import, class name, method call, and expected result.
+from problems.arrays.two_sum import Solution
+
+
+class ProblemTests(unittest.TestCase):
+    def test_example(self):
+        self.assertCountEqual(Solution().twoSum([4, 8, 1, 6], 10), [0, 3])
+
+
+if __name__ == "__main__":
+    unittest.main()
